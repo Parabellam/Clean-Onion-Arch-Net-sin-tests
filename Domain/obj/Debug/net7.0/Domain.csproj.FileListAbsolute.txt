@@ -1,0 +1,24 @@
+C:\Users\sruiz\Desktop\STIVEN PROYECTOS\NEXOS PROYECTOS\Proyecto Actual\9. BACK FLUJOS 2\EasyPOS\src\Domain\bin\Debug\net7.0\Domain.deps.json
+C:\Users\sruiz\Desktop\STIVEN PROYECTOS\NEXOS PROYECTOS\Proyecto Actual\9. BACK FLUJOS 2\EasyPOS\src\Domain\bin\Debug\net7.0\Domain.dll
+C:\Users\sruiz\Desktop\STIVEN PROYECTOS\NEXOS PROYECTOS\Proyecto Actual\9. BACK FLUJOS 2\EasyPOS\src\Domain\bin\Debug\net7.0\Domain.pdb
+C:\Users\sruiz\Desktop\STIVEN PROYECTOS\NEXOS PROYECTOS\Proyecto Actual\9. BACK FLUJOS 2\EasyPOS\src\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+C:\Users\sruiz\Desktop\STIVEN PROYECTOS\NEXOS PROYECTOS\Proyecto Actual\9. BACK FLUJOS 2\EasyPOS\src\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sruiz\Desktop\STIVEN PROYECTOS\NEXOS PROYECTOS\Proyecto Actual\9. BACK FLUJOS 2\EasyPOS\src\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+C:\Users\sruiz\Desktop\STIVEN PROYECTOS\NEXOS PROYECTOS\Proyecto Actual\9. BACK FLUJOS 2\EasyPOS\src\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+C:\Users\sruiz\Desktop\STIVEN PROYECTOS\NEXOS PROYECTOS\Proyecto Actual\9. BACK FLUJOS 2\EasyPOS\src\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\sruiz\Desktop\STIVEN PROYECTOS\NEXOS PROYECTOS\Proyecto Actual\9. BACK FLUJOS 2\EasyPOS\src\Domain\obj\Debug\net7.0\Domain.dll
+C:\Users\sruiz\Desktop\STIVEN PROYECTOS\NEXOS PROYECTOS\Proyecto Actual\9. BACK FLUJOS 2\EasyPOS\src\Domain\obj\Debug\net7.0\refint\Domain.dll
+C:\Users\sruiz\Desktop\STIVEN PROYECTOS\NEXOS PROYECTOS\Proyecto Actual\9. BACK FLUJOS 2\EasyPOS\src\Domain\obj\Debug\net7.0\Domain.pdb
+C:\Users\sruiz\Desktop\STIVEN PROYECTOS\NEXOS PROYECTOS\Proyecto Actual\9. BACK FLUJOS 2\EasyPOS\src\Domain\obj\Debug\net7.0\ref\Domain.dll
+C:\Users\sruiz\Desktop\STIVEN PROYECTOS\PROPIOS\8. Clean-Onion-Arch-Net-sin-tests\Domain\bin\Debug\net7.0\Domain.deps.json
+C:\Users\sruiz\Desktop\STIVEN PROYECTOS\PROPIOS\8. Clean-Onion-Arch-Net-sin-tests\Domain\bin\Debug\net7.0\Domain.dll
+C:\Users\sruiz\Desktop\STIVEN PROYECTOS\PROPIOS\8. Clean-Onion-Arch-Net-sin-tests\Domain\bin\Debug\net7.0\Domain.pdb
+C:\Users\sruiz\Desktop\STIVEN PROYECTOS\PROPIOS\8. Clean-Onion-Arch-Net-sin-tests\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+C:\Users\sruiz\Desktop\STIVEN PROYECTOS\PROPIOS\8. Clean-Onion-Arch-Net-sin-tests\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sruiz\Desktop\STIVEN PROYECTOS\PROPIOS\8. Clean-Onion-Arch-Net-sin-tests\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+C:\Users\sruiz\Desktop\STIVEN PROYECTOS\PROPIOS\8. Clean-Onion-Arch-Net-sin-tests\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+C:\Users\sruiz\Desktop\STIVEN PROYECTOS\PROPIOS\8. Clean-Onion-Arch-Net-sin-tests\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\sruiz\Desktop\STIVEN PROYECTOS\PROPIOS\8. Clean-Onion-Arch-Net-sin-tests\Domain\obj\Debug\net7.0\Domain.dll
+C:\Users\sruiz\Desktop\STIVEN PROYECTOS\PROPIOS\8. Clean-Onion-Arch-Net-sin-tests\Domain\obj\Debug\net7.0\refint\Domain.dll
+C:\Users\sruiz\Desktop\STIVEN PROYECTOS\PROPIOS\8. Clean-Onion-Arch-Net-sin-tests\Domain\obj\Debug\net7.0\Domain.pdb
+C:\Users\sruiz\Desktop\STIVEN PROYECTOS\PROPIOS\8. Clean-Onion-Arch-Net-sin-tests\Domain\obj\Debug\net7.0\ref\Domain.dll

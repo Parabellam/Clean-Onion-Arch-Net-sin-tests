@@ -34,6 +34,7 @@ internal sealed class UpdateCustomerCommandHandler : IRequestHandler<UpdateCusto
         Customer customer = Customer.UpdateCustomer(command.Id, command.Name,
             command.LastName,
             command.Email,
+            command.Password,
             phoneNumber,
             address,
             command.Active);

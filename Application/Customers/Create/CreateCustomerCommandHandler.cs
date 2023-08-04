@@ -32,6 +32,7 @@ public sealed class CreateCustomerCommandHandler : IRequestHandler<CreateCustome
             command.Name,
             command.LastName,
             command.Email,
+            command.Password,
             phoneNumber,
             address,
             true

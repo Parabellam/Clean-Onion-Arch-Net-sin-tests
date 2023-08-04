@@ -26,10 +26,12 @@ public class CustomerConfiguration : IEntityTypeConfiguration<Customer>
 
         builder.HasIndex(c => c.Email).IsUnique();
 
+        builder.Property(c => c.Password).HasMaxLength(255);
+
         builder.Property(c => c.PhoneNumber).HasConversion(
             phoneNumber => phoneNumber.Value,
             value => PhoneNumber.Create(value)!)
-            .HasMaxLength(9);
+            .HasMaxLength(15);
 
         builder.OwnsOne(c => c.Address, addressBuilder => {
 

@@ -4,6 +4,7 @@ public record CreateCustomerCommand(
     string Name,
     string LastName,
     string Email,
+    string Password,
     string PhoneNumber,
     string Country,
     string Line1,

@@ -1,8 +1,8 @@
 using Customers.Common;
 using Domain.Customers;
+using System.Security.Cryptography;
 
 namespace Application.Customers.GetAll;
-
 
 internal sealed class GetAllCustomersQueryHandler : IRequestHandler<GetAllCustomersQuery, ErrorOr<IReadOnlyList<CustomerResponse>>>
 {
@@ -18,17 +18,18 @@ internal sealed class GetAllCustomersQueryHandler : IRequestHandler<GetAllCustom
         IReadOnlyList<Customer> customers = await _customerRepository.GetAll();
 
         return customers.Select(customer => new CustomerResponse(
-                customer.Id.Value,
-                customer.FullName,
-                customer.Email,
-                customer.PhoneNumber.Value,
-                new AddressResponse(customer.Address.Country,
-                    customer.Address.Line1,
-                    customer.Address.Line2,
-                    customer.Address.City,
-                    customer.Address.State,
-                    customer.Address.ZipCode),
-                    customer.Active
-            )).ToList();
+            customer.Id.Value,
+            customer.FullName,
+            customer.Email,
+            SecurityHelper.HashPassword(customer.Password, customer.PasswordSalt, 10000, 256), // Encrypt the password
+            customer.PhoneNumber.Value,
+            new AddressResponse(customer.Address.Country,
+                customer.Address.Line1,
+                customer.Address.Line2,
+                customer.Address.City,
+                customer.Address.State,
+                customer.Address.ZipCode),
+            customer.Active
+        )).ToList();
     }
 }

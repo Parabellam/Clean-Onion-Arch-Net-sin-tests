@@ -4,6 +4,7 @@ public record CustomerResponse(
 Guid Id,
 string FullName,
 string Email,
+string Password,
 string PhoneNumber,
 AddressResponse Address,
 bool Active);

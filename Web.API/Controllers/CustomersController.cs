@@ -6,7 +6,7 @@ using Application.Customers.GetAll;
 
 namespace Web.API.Controllers;
 
-[Route("customers")]
+[Route("api/customers")]
 public class Customers : ApiController
 {
     private readonly ISender _mediator;
@@ -77,5 +77,36 @@ public class Customers : ApiController
             customerId => NoContent(),
             errors => Problem(errors)
         );
+    }
+
+    [HttpPost("login")]
+    public async Task<IActionResult> Login([FromBody] LoginRequestModel request)
+    {
+        // Step 1: Validate the login request
+        if (!ModelState.IsValid)
+        {
+            return BadRequest(ModelState);
+        }
+
+        // Step 2: Retrieve the customer by email
+        var customerResult = await _mediator.Send(new GetCustomerByEmail(request.Email));
+        if (customerResult.IsError)
+        {
+            return Unauthorized(); // Customer not found
+        }
+
+        var customer = customerResult.Value;
+
+        // Step 3: Authenticate the customer
+        if (!customer.Authenticate(request.Email, request.Password))
+        {
+            return Unauthorized(); // Invalid email or password
+        }
+
+        // Step 4: Generate and return the authentication token
+        var token = GenerateAuthToken(customer);
+
+        // Successful login
+        return Ok(new { Token = token });
     }
 }

@@ -9,19 +9,23 @@ public class CreateCustomerCommandValidator : AbstractValidator<CreateCustomerCo
             .MaximumLength(50);
 
         RuleFor(r => r.LastName)
-             .NotEmpty()
-             .MaximumLength(50)
-             .WithName("Last Name");
+            .NotEmpty()
+            .MaximumLength(50)
+            .WithName("Last Name");
 
         RuleFor(r => r.Email)
-             .NotEmpty()
-             .EmailAddress()
-             .MaximumLength(255);
+            .NotEmpty()
+            .EmailAddress()
+            .MaximumLength(255);
+
+        RuleFor(r => r.Password)
+            .NotEmpty()
+            .MaximumLength(255);
 
         RuleFor(r => r.PhoneNumber)
-             .NotEmpty()
-             .MaximumLength(9)
-             .WithName("Phone Number");
+            .NotEmpty()
+            .MaximumLength(15)
+            .WithName("Phone Number");
 
         RuleFor(r => r.Country)
             .NotEmpty()

@@ -21,10 +21,11 @@ internal sealed class GetCustomerByIdQueryHandler : IRequestHandler<GetCustomerB
         }
 
         return new CustomerResponse(
-            customer.Id.Value, 
-            customer.FullName, 
-            customer.Email, 
-            customer.PhoneNumber.Value, 
+            customer.Id.Value,
+            customer.FullName,
+            customer.Email,
+            customer.Password,
+            customer.PhoneNumber.Value,
             new AddressResponse(customer.Address.Country,
             customer.Address.Line1,
             customer.Address.Line2,
